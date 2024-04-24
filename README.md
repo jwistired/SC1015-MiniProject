@@ -38,7 +38,11 @@ We filtered out the data for games that perform well, and made use of Recurrent 
 Using the model, we are able to generate text, character by character, by giving it an initial prompt.
 
 In the future, further improvements to the model could be made by using a more specific dataset, applying regularisation and dropout or adding more layers and training on more epochs.
-   
+
+### Note
+Do view Project File Part I and Part II for more detailed comments on the work. 
+Download and unzip the dataset file to try out the project.
+
 ## Conclusion and Insights
 
 ### Conclusion
