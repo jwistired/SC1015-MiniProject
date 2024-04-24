@@ -3,7 +3,10 @@
 
 
 
-
+## Contributors
+1) jwistired - Jing Woon
+2) jerrald-s - Jerrald
+3) whyzaac - Yi Jun
 ## About
 This is a mini project for SC1015 (Introduction ot Data Science and Artificial Intelligence). Our main focus is on games from Steam.
 ## Dataset Used
