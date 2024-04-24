@@ -39,7 +39,7 @@ Using the model, we are able to generate text, character by character, by giving
 
 In the future, further improvements to the model could be made by using a more specific dataset, applying regularisation and dropout or adding more layers and training on more epochs.
 
-### Note
+## Note
 Do view Project File Part I and Part II for more detailed comments on the work. 
 Download and unzip the dataset file to try out the project.
 
