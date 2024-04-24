@@ -28,5 +28,5 @@ https://www.kaggle.com/datasets/mexwell/steamgames
 
 
 ## References
-https://www.kaggle.com/datasets/mexwell/steamgames
-https://www.tensorflow.org/text/tutorials/text_generation
+1) https://www.kaggle.com/datasets/mexwell/steamgames
+2) https://www.tensorflow.org/text/tutorials/text_generation
