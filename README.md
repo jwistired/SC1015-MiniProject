@@ -25,12 +25,12 @@ For our findings, price and length of description have a low correlation to the 
 
 ## Machine Learning
 
-(i) Decision Tree Classifier
+### (i) Decision Tree Classifier
 As video games with a higher Metacritic score generally perform better, we would like to see if we can use the Metacritic score to predict if a video game would be successful. We will make use of a Decision Tree Classifier on our train-test split dataset to determine if a game is successful from the Metacritic Score. 
 
 Overall, our model achieved a classification accuracy of around 0.77, with a True Negative Rate of 0.96 and a True Positive Rate of 0.2. False Positive Rate remains low at 0.03.
 
-(ii) Recurrent Neural Network (New)
+### (ii) Recurrent Neural Network (New)
 While we initially determined that the length of the description does not have much correlation to the success of a video game, we wanted to see if we could generate a description  of a video game based on other well-performing games of the same genre, similar to the Gen AI we have out there.
 
 We filtered out the data for games that perform well, and made use of Recurrent Neural Network to train on our data set. Our model will take in the input with an embedding layer that maps the character ID to a vector. It also consists of 2 GRU layers for recurrent computation and a Dense output layer.
@@ -53,9 +53,9 @@ In the future, further improvements to the model could be made by using a more s
 3) Niche genres such as "Web development" games perform poorly in general and should be avoided.
 
 ## Contributors
-1) [@jwistired] (https://www.github.com/jwistired) - Jing Woon: Project Idea, Dataset Finding, Group Meeting coordinator, Presenter
-2) [@jerrald-s] (https://www.github.com/jerrald-s) - Jerrald: Data preparation & cleaning, Exploratory analysis and data visualisation, application of Machine Learning on the dataset, research into Recurrent Neural Network and attempt of application to the project
-4) [@whyzaac] (https://www.github.com/whyzaac) - Yi Jun: Facilitate in Project Ideation and Project Objectives, Dataset Finding, Presenter
+1) @jwistired - Jing Woon: Project Idea, Dataset Finding, Group Meeting coordinator, Presenter
+2) @jerrald-s - Jerrald: Data preparation & cleaning, Exploratory analysis and data visualisation, application of Machine Learning on the dataset, research into Recurrent Neural Network and attempt of application to the project
+4) @whyzaac - Yi Jun: Facilitate in Project Ideation and Project Objectives, Dataset Finding, Presenter
 
 ## References
 1) https://www.kaggle.com/datasets/mexwell/steamgames
