@@ -22,6 +22,7 @@ https://www.kaggle.com/datasets/mexwell/steamgames
 1) Able to find out what factors affect sales (game ownership)
 2) Able to narrow factors down to Metacritic scores
 3) Use Metacritic scores to predict success of a game
+4) Able to utilise our data and RNN to assist with generating a game description 
 ### Insights
 1) Shorter game length -> Lower ownership
 2) Free games -> Higher ownership as they are more accessible
